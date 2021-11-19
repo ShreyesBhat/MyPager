@@ -7,13 +7,13 @@ import "./App.css";
 function App() {
   if (!localStorage.getItem("username")) return <LoginForm />;
 
+  const projectID = "9ac4ba9f-fade-4e2f-866e-200bc7686ae2";
   return (
-
     <ChatEngine
       height="100vh"
-      userName="shreyes"
-      userSecret="root"
-      projectID="9ac4ba9f-fade-4e2f-866e-200bc7686ae2"
+      projectID={projectID}
+      userName={localStorage.getItem("username")}
+      userSecret={localStorage.getItem("password")}
       renderChatFeed={(chatAppProps) => <ChatFeed {...chatAppProps} />}
       onNewMessage={() =>
         new Audio(
