@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/mypager/static/css/main.25e601d6.chunk.css",
+    "main.js": "/mypager/static/js/main.0fa67738.chunk.js",
+    "main.js.map": "/mypager/static/js/main.0fa67738.chunk.js.map",
+    "runtime-main.js": "/mypager/static/js/runtime-main.b830d84e.js",
+    "runtime-main.js.map": "/mypager/static/js/runtime-main.b830d84e.js.map",
+    "static/js/2.408b5c6d.chunk.js": "/mypager/static/js/2.408b5c6d.chunk.js",
+    "static/js/2.408b5c6d.chunk.js.map": "/mypager/static/js/2.408b5c6d.chunk.js.map",
+    "index.html": "/mypager/index.html",
+    "static/css/main.25e601d6.chunk.css.map": "/mypager/static/css/main.25e601d6.chunk.css.map",
+    "static/js/2.408b5c6d.chunk.js.LICENSE.txt": "/mypager/static/js/2.408b5c6d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b830d84e.js",
+    "static/js/2.408b5c6d.chunk.js",
+    "static/css/main.25e601d6.chunk.css",
+    "static/js/main.0fa67738.chunk.js"
+  ]
+}
