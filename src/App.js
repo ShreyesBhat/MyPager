@@ -8,10 +8,11 @@ function App() {
   if (!localStorage.getItem("username")) return <LoginForm />;
 
   return (
+
     <ChatEngine
       height="100vh"
       userName="shreyes"
-      userSecret="969a1338-28f5-41ea-8e37-c228f157d7b7"
+      userSecret="root"
       projectID="9ac4ba9f-fade-4e2f-866e-200bc7686ae2"
       renderChatFeed={(chatAppProps) => <ChatFeed {...chatAppProps} />}
       onNewMessage={() =>

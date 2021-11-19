@@ -144,13 +144,12 @@
 }
 
 .read-receipt {
-  width: 13px;
-  height: 13px;
-  border-radius: 13px;
+  height: 1.5rem;
+  width: 1.5em;
+  border-radius: 1.5rem;
   margin: 1.5px;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 14px;
 }
 
 .message-form-container {
@@ -170,7 +169,7 @@
 
 .message-input {
   height: 40px;
-  width: calc(100% - 132px);
+  width: calc(100% - 80px);
   background-color: white;
   border: 1px solid white;
   padding: 0px 18px;
@@ -180,29 +179,30 @@
 
 .image-button {
   cursor: pointer;
-  padding: 0px 12px;
+  padding: 0px 20px 0px 0px;
   height: 100%;
 }
 
 .send-button {
   height: 42px;
+  font-size: 1rem;
   background-color: white;
   border: 1px solid white;
-  padding: 0px 18px;
+  padding: 0px 12px 0 0;
   cursor: pointer;
 }
 
 .send-icon {
   top: 1px;
   position: relative;
-  transform: rotate(-90deg);
 }
 
 .picture-icon {
   top: 1px;
   position: relative;
-  font-size: 14px;
+  font-size: 1.1rem;
 }
+
 
 /* FORM STYLES */
 *,
@@ -260,7 +260,7 @@
   color: white;
   margin-bottom: 30px;
   width: 100%;
-  font-size: 2.3em;
+  font-size: 2.3rem;
 }
 
 .button {
@@ -298,4 +298,10 @@
 .button:hover span:after {
   opacity: 1;
   right: 0;
+}
+.error {
+color: white;
+text-align: center;
+margin-top: 20px;
+font-size: 2rem;
 }
